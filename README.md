@@ -53,3 +53,20 @@ SHELL öffnen und ins Verzeichnis des Vagrantfiles wechseln und diesen Code eing
 ```
 vagrant up
 ```
+
+Testen
+------
+
+Um den DHCP Server zum Testen gibt es zwei Methoden.
+
+**1. Methode**
+Im VM das Tool <a href="http://github.com/saravana815/dhtest" dhcptest</a> installieren.
+Nach der Installation im Shell dhcptest ausführen.
+Wenn man es mit der Option -v ausführt sieht man auch den DHCP-Datenverkehr.
+
+**2.Methode**
+Über Vagrant eine neue VM erstellen und starten. Nachdem Starten überprüfen, ob man eine IP bekommen hat.
+
+ 
+ - 
+ Apaysaran Muralitharan
