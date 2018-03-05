@@ -6,7 +6,12 @@ Für den ersten Teil habe, ich ein Mutli VM erstellt mit einer Web Service und D
 Mit dieser Vagrantfile wird ein VM mit Debian Linux erstellt. 
 In dieser wird ein DHCP Service installiert.
 
-Der DHCP-Server wird mit dieser Konfiguration installiert.
+
+
+
+
+
+Der DHCP-Server wird mit dieser Konfiguration installiert. Die Konfigurationfile kostet /etc/dhcp/dhcpd.conf
 
 Subnet -->   192.168.50.0/24
 
