@@ -42,6 +42,13 @@ Die Tastaturlayout ist Deutsch Schweiz.
 ```
 sudo sed -i 's/LANG=en_US.UTF-8/LANG=de_CH.UTF-8/g' /etc/default/local
 ```
+Am Schluss wird noch eine lokale Firewall installiert und konfiguriert. Damit wir per SSH zugreifen können wird der Port 22 geöffnet.
+
+```
+sudo apt-get -y install ufw gufw 
+sudo ufw allow from 10.0.2.2 to any port 22
+sudo ufw --force enable
+```
 
 HOW TO
 ------
@@ -67,6 +74,21 @@ Wenn man es mit der Option -v ausführt sieht man auch den DHCP-Datenverkehr.
 **2.Methode**
 Über Vagrant eine neue VM erstellen und starten. Nachdem Starten überprüfen, ob man eine IP bekommen hat.
 
+ SSH Keys
+ --------
  
+ Ich habe lokal ein SSH Key im Verzeichnis .ssh erstellt mit dem Befehl:
+ ```
+ ssh-keygen
+ ```
+Dies ist mein RSA Public:
+```
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJEYgSau7/eVl4008ESXegQ3xCpxL6vc98v/INL60aOhGgKpx4NNotbojQ8ltZwsPHI5U7OS7t4+2uJKXJdqKt+oHkTbJlCJktZpay1CjknGU9+IpLz6LbQeE992RmYwSRwIP6Wx84+A8EdpvYKgtsgCuBklnhtbzWaZjHKZIM6LtL0OqdaclYx85LQsEbuMPctTXoilc8pauy3I9syudSKeO+baeRTSXi1uCVfXcHPdueqOYV/pxqi8Da/GSj6+0vwDyLnGKqZG1BCPUb2n+wb1xYVOIDIZstfWOjweZJgUdtQ2eQa3ah+Q7ftPyKz8cw6YKb5uvZGNzfZ4041Trx Apay@Apaysarans-MBP.tbz.local
+```
+Reverse Proxy
+-------------
+
+
+
  - 
  Apaysaran Muralitharan
