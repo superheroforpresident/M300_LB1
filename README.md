@@ -81,7 +81,7 @@ Wenn man es mit der Option -v ausführt sieht man auch den DHCP-Datenverkehr.
  ```
  ssh-keygen
  ```
-Dies ist mein RSA Public:
+Dies ist mein RSA Public Key:
 ```
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJEYgSau7/eVl4008ESXegQ3xCpxL6vc98v/INL60aOhGgKpx4NNotbojQ8ltZwsPHI5U7OS7t4+2uJKXJdqKt+oHkTbJlCJktZpay1CjknGU9+IpLz6LbQeE992RmYwSRwIP6Wx84+A8EdpvYKgtsgCuBklnhtbzWaZjHKZIM6LtL0OqdaclYx85LQsEbuMPctTXoilc8pauy3I9syudSKeO+baeRTSXi1uCVfXcHPdueqOYV/pxqi8Da/GSj6+0vwDyLnGKqZG1BCPUb2n+wb1xYVOIDIZstfWOjweZJgUdtQ2eQa3ah+Q7ftPyKz8cw6YKb5uvZGNzfZ4041Trx Apay@Apaysarans-MBP.tbz.local
 ```
